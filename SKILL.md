@@ -35,7 +35,7 @@ If `app-detail.md` is a template or a feature lacks CONFIRMED evidence, do not i
 6. Old copy/reference examples (never proof of a feature).
 
 ## Asset handling
-Check `assets/README.md` and the actual files before using them. `assets/HabitFine-mascot.webp` is the supplied transparent blue mascot reference: use the actual asset as-is for compositing and never redraw it with an image model. Use `assets/HabitFine-app-icon.png` as the official app icon/logo only if that file is present. Use the primary Arya portrait plus front/profile/full-body references to preserve identity. Use actual app screenshots only; never fabricate product UI, stats, prices or badges. If an asset is absent, identify it and offer a fallback prompt. Do not pretend a missing image exists.
+Check `assets/README.md`, `screenshots/README.md`, and the actual files before using them. Genuine HabitFine app screenshots belong in `screenshots/`; use them as references for the real shipped UI only, never invent or embellish product screens. `assets/HabitFine-mascot.webp` is the supplied transparent blue mascot reference: use the actual asset as-is for compositing and never redraw it with an image model. Use `assets/HabitFine-app-icon.png` as the official app icon/logo only if that file is present. Use the primary Arya portrait plus front/profile/full-body references to preserve identity. Use actual app screenshots only; never fabricate product UI, stats, prices or badges. If an asset is absent, identify it and offer a fallback prompt. Do not pretend a missing image exists.
 
 ## Workflow
 1. Parse objective, audience, language, campaign angle, format and requested scope.
