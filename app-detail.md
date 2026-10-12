@@ -1,8 +1,8 @@
 # HabitFine — App Detail & Claims Register
 
-**Status: PARTIALLY DOCUMENTED FROM USER-SUPPLIED SCREENSHOTS; behavior and entitlements still need verification against the current app build.**
+**Status: OWNER-PROVIDED APP DETAILS ARE TO BE TREATED AS VERIFIED WHEN THE OWNER SAYS THEY WORK.**
 
-This is the source of truth for public product claims. A visible label proves that the UI displayed that label in a supplied screenshot; it does not by itself prove backend behavior, eligibility or current availability.
+The app owner explicitly instructed that the app details and functionality they provide and confirm as working should be treated as verified for this project. Record those claims as **OWNER-CONFIRMED**. This means confirmed by the owner, not independently runtime-tested by the assistant. For screenshots that only show a label/control, document the visible UI separately from any behavior not explicitly confirmed.
 
 ## Product identity
 - Product name: HabitFine: Daily Habit Tracker
@@ -21,6 +21,15 @@ This is the source of truth for public product claims. A visible label proves th
 
 | Claim | Status | Evidence / limit | Public use now? |
 |---|---|---|---|
+| Habit detail screen: edit, pause, share and delete controls | OWNER-CONFIRMED UI | User-supplied Morning Workout detail screenshots | Yes, describe visible controls |
+| Habit completion status and daily schedule/category/stake labels | OWNER-CONFIRMED | Screenshot shows “Completed Today”, Every Day, Fitness and ₹50 stake for Morning Workout; treat owner-supplied app details as verified per owner's instruction | Yes, avoid implying payment transfer unless specifically confirmed |
+| Current streak, best record, 30-day rate and total completed metrics | OWNER-CONFIRMED | Detail screenshot shows 1d current streak, 1d best record, 100% 30-day rate and total completed 1; these are screenshot-specific values, not universal claims | Yes, as UI capabilities; never use screenshot's sample values as general marketing metrics |
+| Share Minimalist Streak Card | OWNER-CONFIRMED UI | Detail screenshot shows a share-card entry for WhatsApp & Instagram Story | Yes |
+| Activity calendar with Week/Month/Year options | OWNER-CONFIRMED UI | October 2026 month calendar visible in screenshot | Yes |
+| Accountability Stake summary: Stake/Miss, Unpaid Debt, Total Incurred, Clean status and Fine Jar entry | OWNER-CONFIRMED UI | Detail screenshot displays ₹50 stake/miss, ₹0 unpaid debt and ₹0 total incurred; describe UI, do not claim real-money movement beyond owner-confirmed behavior | Yes, precise UI description only |
+| Total Focus Logged and Start Focus action from habit detail | OWNER-CONFIRMED UI | Screenshot shows 5 mins Total Focus Logged and Start Focus button; 5 mins is example screen data | Yes |
+| Today's Reflection with Save action | OWNER-CONFIRMED UI | Reflection text area and Save button visible | Yes |
+| Activity Timeline with Completed and Habit started events | OWNER-CONFIRMED UI | Timeline visible for Morning Workout | Yes |
 | Daily habit dashboard, completion counts and progress presentation | SCREENSHOT OBSERVED | Home dashboard screenshot supplied earlier; calculations not tested | Describe only the visible UI, avoid outcome promises |
 | Streak label on habit/dashboard UI | SCREENSHOT OBSERVED | Home screenshot; calculation/reset rules not tested | No streak duration guarantees |
 | Focus / Morning Workout timer UI | SCREENSHOT OBSERVED | `focus-timer.jpg` referenced in earlier screenshot manifest; timer behavior not independently tested | UI-only wording until tested |
@@ -47,6 +56,8 @@ This is the source of truth for public product claims. A visible label proves th
 | Guaranteed habit formation, health outcomes or productivity gains | NOT A VALID PRODUCT CLAIM | Cannot be guaranteed | No |
 
 ## Screenshot evidence log
+- `screenshots/habit-detail-streak-activity.jpg` — Morning Workout detail, completion, streak metrics, share card and monthly activity calendar; supplied by owner.
+- `screenshots/habit-detail-accountability-reflection.jpg` — accountability stake, Fine Jar, focus logging, reflection and activity timeline; supplied by owner.
 - `screenshots/appearance-icon-density-celebration.jpg` — appearance controls and celebration options; screenshot supplied by user, October 2026 conversation.
 - `screenshots/appearance-background-check-button.jpg` — background/check-button/icon/card-density choices; screenshot supplied by user, October 2026 conversation.
 - `screenshots/appearance-theme-accent-palette-preview.jpg` — theme mode, 10 accent palettes and live preview; screenshot supplied by user, October 2026 conversation.
