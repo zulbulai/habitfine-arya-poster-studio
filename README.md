@@ -1,25 +1,47 @@
 # HabitFine × Arya Poster Studio
 
-Claude Skill for art-directing Instagram posters and captions for HabitFine featuring Arya. Includes a product-claim register, caption workflow, visual consistency guidance, and asset checklist.
+A Claude Skill for planning premium Instagram posters, carousel concepts, image-generation prompts, layout/compositing specs, and matching captions for HabitFine featuring Arya.
 
-## Status
+## Contents
 
-This repository is being initialized from the reviewed Skill package. Feature claims remain unverified until checked against the current app. The `TRYYEAR` offer must not be published until redemption and terms are verified.
+- [`SKILL.md`](SKILL.md) — main Skill workflow and safety rules
+- [`app-detail.md`](app-detail.md) — product claim register; features are not considered confirmed without evidence
+- [`references/arya-character-bible.md`](references/arya-character-bible.md) — Arya identity consistency
+- [`references/habitfine-brand-guide.md`](references/habitfine-brand-guide.md) — brand and official-logo rules
+- [`references/instagram-layout-system.md`](references/instagram-layout-system.md) — canvas, safe areas and compositing
+- [`references/instagram-caption-system.md`](references/instagram-caption-system.md) — caption, hook, hashtags and alt text
+- [`references/app-feature-and-claims-policy.md`](references/app-feature-and-claims-policy.md) — claim verification
+- [`references/poster-copywriting.md`](references/poster-copywriting.md) — copy principles
+- [`references/image-generation-prompts.md`](references/image-generation-prompts.md) — prompt recipe
+- [`references/negative-prompt-library.md`](references/negative-prompt-library.md) — negative prompts
+- [`references/campaign-playbook.md`](references/campaign-playbook.md) — campaign concepts
+- [`references/example-posters.md`](references/example-posters.md) — safe examples and QA
+- [`assets/README.md`](assets/README.md) — required asset manifest
 
-## Structure
+## Install/use
 
-- `SKILL.md` — main Skill instructions
-- `app-detail.md` — product claim register and verification status
-- `references/` — brand, character, layout, caption, prompt and QA guidance
-- `assets/` — official app icon and supplied Arya reference images (when uploaded)
+1. Download or clone this repository.
+2. Ensure `SKILL.md` is at the root of the Skill folder.
+3. Add the genuine binary assets listed in `assets/README.md`.
+4. Review `app-detail.md` against the current shipped app and update claim statuses only when evidence exists.
+5. Package/import the folder in the Claude Skills interface and test both a neutral-awareness brief and a confirmed-feature brief.
+6. Verify “only caption” and “only prompt” requests are respected.
 
-## Formats
+## Canvas sizes
 
-- Feed: 1080 × 1350 (4:5)
-- Story/Reel cover: 1080 × 1920 (9:16)
-- Square: 1080 × 1080 (1:1)
-- Carousel: 3–7 slides
+- Instagram feed: 1080 × 1350 px (4:5), default
+- Story/Reel cover: 1080 × 1920 px (9:16)
+- Square: 1080 × 1080 px (1:1)
+- Carousel: 3–7 consistent slides
 
-## Important
+## Asset status
 
-No fake app UI, ratings, download counts, pricing, testimonials, scarcity, or guaranteed outcomes. Use only genuine app screenshots and the official logo. The Skill has not been runtime-tested inside Claude yet.
+The repository currently contains the Skill and its text documentation. The original image files (official HabitFine icon and Arya references) are **not yet uploaded as binary files to this repository**; `assets/README.md` records their required filenames. Do not assume a filename or manifest means the actual image exists.
+
+## Product-claim and offer safety
+
+Do not invent UI, features, ratings, downloads, testimonials, prices, scarcity, or guaranteed outcomes. The `TRYYEAR` offer is user-provided but unverified and must not appear in public copy until current redemption and terms are checked.
+
+## Validation status
+
+Repository tree was checked after adding the documentation. This Skill has **not** been installed or runtime-tested inside Claude. Current app features and the promotion have not been independently verified.
