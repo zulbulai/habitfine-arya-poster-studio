@@ -65,7 +65,7 @@ The app owner explicitly instructed that the app details and functionality they 
 - `screenshots/plus-yearly-plan-features.jpg` — yearly plan and listed Pro features; screenshot supplied by user, October 2026 conversation.
 - `screenshots/todo-tasks-screen.jpg` — To-Do UI; screenshot supplied by user, October 2026 conversation.
 
-The renamed image files are packaged in the separately provided `habitfine-screenshots-renamed.zip`. Their binary contents are not yet verified as uploaded to this GitHub repository.
+The renamed image files are packaged locally as `habitfine-screenshots-renamed-v3-all-8.zip`. GitHub tree inspection confirms that the screenshot image binaries are NOT currently committed under `screenshots/`; only `screenshots/README.md` is present. Therefore these eight entries are evidence notes, not proof that the screenshots are included in the Skill repository. Do not claim screenshot upload is complete until each image path appears in the GitHub tree.
 
 ## TRYYEAR validation checklist
 - [ ] Code currently works in the intended redemption flow.
