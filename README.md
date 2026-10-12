@@ -16,13 +16,14 @@ A Claude Skill for planning premium Instagram posters, carousel concepts, image-
 - [`references/negative-prompt-library.md`](references/negative-prompt-library.md) — negative prompts
 - [`references/campaign-playbook.md`](references/campaign-playbook.md) — campaign concepts
 - [`references/example-posters.md`](references/example-posters.md) — safe examples and QA
-- [`assets/README.md`](assets/README.md) — required asset manifest
+- [`assets/README.md`](assets/README.md) — asset manifest and availability notes
+- [`assets/HabitFine-mascot.webp`](assets/HabitFine-mascot.webp) — uploaded transparent mascot reference
 
 ## Install/use
 
 1. Download or clone this repository.
 2. Ensure `SKILL.md` is at the root of the Skill folder.
-3. Add the genuine binary assets listed in `assets/README.md`.
+3. Review `assets/README.md` and confirm every referenced asset exists before use.
 4. Review `app-detail.md` against the current shipped app and update claim statuses only when evidence exists.
 5. Package/import the folder in the Claude Skills interface and test both a neutral-awareness brief and a confirmed-feature brief.
 6. Verify “only caption” and “only prompt” requests are respected.
@@ -36,7 +37,7 @@ A Claude Skill for planning premium Instagram posters, carousel concepts, image-
 
 ## Asset status
 
-The repository currently contains the Skill and its text documentation. The original image files (official HabitFine icon and Arya references) are **not yet uploaded as binary files to this repository**; `assets/README.md` records their required filenames. Do not assume a filename or manifest means the actual image exists.
+The uploaded transparent blue mascot is included at `assets/HabitFine-mascot.webp`. Other official icon and Arya reference images, along with genuine app screenshots, are not all uploaded yet; check `assets/README.md` for the exact manifest. Do not assume a filename means the file exists.
 
 ## Product-claim and offer safety
 
@@ -44,4 +45,4 @@ Do not invent UI, features, ratings, downloads, testimonials, prices, scarcity, 
 
 ## Validation status
 
-Repository tree was checked after adding the documentation. This Skill has **not** been installed or runtime-tested inside Claude. Current app features and the promotion have not been independently verified.
+The mascot asset and documentation updates were committed to the repository. This Skill has **not** been installed or runtime-tested inside Claude. Current app features and the promotion have not been independently verified.
