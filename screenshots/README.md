@@ -25,6 +25,13 @@ New screenshots supplied and renamed:
 - Preserve original captures and retain portrait aspect ratio; do not crop important context when used as product references.
 - Update `../app-detail.md` with evidence/status before using screenshot-specific features in marketing copy.
 
+- `habit-detail-streak-activity.jpg` — Morning Workout detail, completion state, streak metrics, share-card entry and month calendar.
+- `habit-detail-accountability-reflection.jpg` — accountability stake summary, Fine Jar entry, focus logging, Today's Reflection and activity timeline.
+
+## Owner-confirmed status
+
+The owner explicitly instructed that app details and features they provide and confirm as working should be treated as verified for this project. Record such details as owner-confirmed; this is distinct from independent runtime testing. Screenshot-only labels should not be used to infer hidden behavior.
+
 ## Binary upload status
 
 The six newly renamed image files are packaged in `habitfine-screenshots-renamed.zip`, but their binary contents have not yet been verified as present in this GitHub folder. A manifest entry is not proof of a binary upload.
