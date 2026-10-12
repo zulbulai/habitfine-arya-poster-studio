@@ -18,6 +18,7 @@ A Claude Skill for planning premium Instagram posters, carousel concepts, image-
 - [`references/example-posters.md`](references/example-posters.md) — safe examples and QA
 - [`assets/README.md`](assets/README.md) — asset manifest and availability notes
 - [`assets/HabitFine-mascot.webp`](assets/HabitFine-mascot.webp) — uploaded transparent mascot reference
+- [`screenshots/README.md`](screenshots/README.md) — dedicated folder and rules for genuine app screenshots
 
 ## Install/use
 
