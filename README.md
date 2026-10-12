@@ -18,7 +18,12 @@ A Claude Skill for planning premium Instagram posters, carousel concepts, image-
 - [`references/example-posters.md`](references/example-posters.md) — safe examples and QA
 - [`assets/README.md`](assets/README.md) — asset manifest and availability notes
 - [`assets/HabitFine-mascot.webp`](assets/HabitFine-mascot.webp) — uploaded transparent mascot reference
-- [`screenshots/README.md`](screenshots/README.md) — dedicated folder and rules for genuine app screenshots
+- [`screenshots/README.md`](screenshots/README.md) — dedicated screenshot library manifest
+- `app-detail.md` now records UI labels observed in the six new screenshots, with unverified behavior clearly marked
+
+## Latest screenshot update
+
+Six newly supplied screenshots have been descriptively renamed and packaged in `habitfine-screenshots-renamed.zip`: appearance controls, theme/accent palette preview, settings menu, Plus yearly-plan feature list, and To-Do screen. The renamed image files are available in the provided ZIP; their binary upload into GitHub is not yet verified. The repository contains the updated screenshot manifest and claim register.
 
 ## Install/use
 
