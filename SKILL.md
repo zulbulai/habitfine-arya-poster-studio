@@ -30,12 +30,12 @@ If `app-detail.md` is a template or a feature lacks CONFIRMED evidence, do not i
 1. `app-detail.md` with evidence/status.
 2. Current genuine app screenshots and app behavior.
 3. Current official Google Play listing: https://play.google.com/store/apps/details?id=com.procsctools.habitfine
-4. Supplied official logo and approved Arya references.
+4. Supplied official logo, mascot and approved Arya references.
 5. Explicit user instructions.
 6. Old copy/reference examples (never proof of a feature).
 
 ## Asset handling
-Check `assets/README.md` and the actual files before using them. Use `assets/HabitFine-app-icon.png` as the supplied logo if present; never ask an image model to redraw it. Use the primary Arya portrait plus front/profile/full-body references to preserve identity. Use actual app screenshots only; never fabricate product UI, stats, prices or badges. If an asset is absent, identify it and offer a fallback prompt. Do not pretend a missing image exists.
+Check `assets/README.md` and the actual files before using them. `assets/HabitFine-mascot.webp` is the supplied transparent blue mascot reference: use the actual asset as-is for compositing and never redraw it with an image model. Use `assets/HabitFine-app-icon.png` as the official app icon/logo only if that file is present. Use the primary Arya portrait plus front/profile/full-body references to preserve identity. Use actual app screenshots only; never fabricate product UI, stats, prices or badges. If an asset is absent, identify it and offer a fallback prompt. Do not pretend a missing image exists.
 
 ## Workflow
 1. Parse objective, audience, language, campaign angle, format and requested scope.
@@ -44,7 +44,7 @@ Check `assets/README.md` and the actual files before using them. Use `assets/Hab
 4. Art-direct Arya consistently using the character bible and actual references.
 5. Write concise headline, supporting line and CTA. Do not rely on image generation to render final text accurately.
 6. Write an image prompt with composition, lens/lighting, pose, environment, negative space, aspect ratio and natural anatomy. Include the relevant supplied reference images.
-7. Specify compositing for typography, official logo and genuine screenshots as separate layers.
+7. Specify compositing for typography, the official mascot/logo and genuine screenshots as separate layers. Place the real `HabitFine-mascot.webp` asset into the layout; do not generate a substitute mascot.
 8. Include a matching caption package by default: caption, alternative hook, relevant hashtags, optional first comment, alt text and publication checks.
 9. Run QA for claims, identity, logo, screenshot authenticity, spelling, readability, safe areas and CTA.
 10. Disclose missing assets, unverified claims and tool operations not performed.
