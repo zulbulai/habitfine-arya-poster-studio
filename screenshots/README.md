@@ -1,6 +1,6 @@
 # HabitFine App Screenshots
 
-This folder is the source-of-truth location for genuine screenshots from the shipped HabitFine app. The repository manifest is maintained here; use the separately provided `habitfine-screenshots-renamed.zip` to access the six newly renamed image files until their binary uploads to GitHub are completed.
+This folder is the source-of-truth location for genuine screenshots from the shipped HabitFine app. The repository manifest is maintained here; Eight renamed screenshots are packaged locally in `habitfine-screenshots-renamed-v3-all-8.zip`. IMPORTANT: as of the last GitHub tree check, this folder contains only this README—not the screenshot image binaries. Do not treat this manifest or the ZIP as if the images have already been committed here.
 
 ## Screenshot library and descriptive filenames
 
@@ -34,4 +34,4 @@ The owner explicitly instructed that app details and features they provide and c
 
 ## Binary upload status
 
-The six newly renamed image files are packaged in `habitfine-screenshots-renamed.zip`, but their binary contents have not yet been verified as present in this GitHub folder. A manifest entry is not proof of a binary upload.
+GitHub tree verification found no screenshot image binaries in this folder yet. The local ZIP `habitfine-screenshots-renamed-v3-all-8.zip` contains all eight renamed screenshots, but binary upload to GitHub remains INCOMPLETE. A manifest entry is not proof of a binary upload.
