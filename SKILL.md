@@ -34,6 +34,9 @@ If `app-detail.md` is a template or a feature lacks CONFIRMED evidence, do not i
 5. Explicit user instructions.
 6. Old copy/reference examples (never proof of a feature).
 
+## Owner-provided evidence policy
+The app owner explicitly instructs this Skill to treat app details and functionality they supply and confirm as working as verified for this project. Record these as `OWNER-CONFIRMED`; do not repeatedly ask for proof or label them unverified merely because the assistant did not run the app. Keep the distinction between owner-confirmed and independently runtime-tested explicit in internal documentation. If a screenshot only shows a label and the owner has not confirmed the underlying behavior, describe the visible UI without inventing hidden implementation details.
+
 ## Asset handling
 Check `assets/README.md`, `screenshots/README.md`, and the actual files before using them. Genuine HabitFine app screenshots belong in `screenshots/`; use them as references for the real shipped UI only, never invent or embellish product screens. `assets/HabitFine-mascot.webp` is the supplied transparent blue mascot reference: use the actual asset as-is for compositing and never redraw it with an image model. Use `assets/HabitFine-app-icon.png` as the official app icon/logo only if that file is present. Use the primary Arya portrait plus front/profile/full-body references to preserve identity. Use actual app screenshots only; never fabricate product UI, stats, prices or badges. If an asset is absent, identify it and offer a fallback prompt. Do not pretend a missing image exists.
 
